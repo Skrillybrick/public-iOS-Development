@@ -276,6 +276,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ocv-dr-WMp"/>
                     </view>
+                    <connections>
+                        <outlet property="display" destination="gC2-i9-XzD" id="rvD-nK-IpN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b3E-z2-QY8" sceneMemberID="firstResponder"/>
             </objects>

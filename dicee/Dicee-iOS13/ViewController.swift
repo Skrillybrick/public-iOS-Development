@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageView04: UIImageView!
     @IBOutlet weak var diceImageView05: UIImageView!
     @IBOutlet weak var diceImageView06: UIImageView!
+    @IBOutlet var dice07: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class ViewController: UIViewController {
         diceImageView04.image = diceImages.randomElement()!
         diceImageView05.image = diceImages.randomElement()!
         diceImageView06.image = diceImages.randomElement()!
+        dice07. = diceImages.randomElement()!
     }
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
